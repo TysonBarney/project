@@ -8,13 +8,14 @@
 header{
     background-color: #FFF654;
     width: 900px;
-    border: 10px dashed yellow;
-    padding: 10px;
+    padding: 0px;
     padding-top: 0;
-    margin: 8px;
+    margin: 0px;
+    margin-top: -16px;
 }
 nav{
     margin-top: 0;
+    margin-left: 25px;
     width: 30%;
 }
 nav ul{
@@ -30,19 +31,24 @@ nav ul li{
     border-radius: 2px;
 }
 nav ul li:hover{
-    background-color: black;
-    color: white;
+    background-color: lightgray;
+    color: black;
 }
 section{
     width: 900px;
-    background-image: url("Images/backimage.jpg");
-    background-repeat: repeat-y;
+    background-color: #FFFBAA;
 }
 article p{
     text-align: left;
 }
 footer{
     width: 900px;
-    background-color: brown;
+    background-color: #D4CF6A;
     height: 100px;
+    color: black;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
