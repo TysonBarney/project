@@ -3,16 +3,46 @@
     margin-left: auto;
     margin-right: auto;
     width: 900px;
-}
-body{
-    background-image: url("Images/backimage.jpg");
-    background-repeat: repeat-y;
+    border: 1px solid black;
 }
 header{
     background-color: #FFF654;
-    height: 175px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 900px;
+    border: 10px dashed yellow;
+    padding: 10px;
+    padding-top: 0;
+    margin: 8px;
+}
+nav{
+    margin-top: 0;
+    width: 30%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 2px;
+    padding: 4px;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+}
+nav ul li:hover{
+    background-color: black;
+    color: white;
+}
+section{
+    width: 900px;
+    background-image: url("Images/backimage.jpg");
+    background-repeat: repeat-y;
+}
+article p{
+    text-align: left;
+}
+footer{
+    width: 900px;
+    background-color: brown;
+    height: 100px;
 }
