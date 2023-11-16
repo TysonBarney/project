@@ -4,3 +4,15 @@
     margin-right: auto;
     width: 900px;
 }
+body{
+    background-image: url("Images/backimage.jpg");
+    background-repeat: repeat-y;
+}
+header{
+    background-color: #FFF654;
+    height: 175px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
