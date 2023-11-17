@@ -5,10 +5,10 @@ var imgArray = new Array(
         'Image4Lg.jpg'
 );
 var titleArray = new Array(
-        'Angry Cat',
-        'Cat and Dog',
-        'Dog and Dog',
-        'Dog'
+        'One of my pet cats',
+        'A cat and a dog resting together',
+        'Two dogs looking at a really delicious squirrel',
+        'A woman and her pet dog'
 );
 var imgPath = "Images/Fullsize/";
 function swapImage(imgID) {
