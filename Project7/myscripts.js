@@ -1,18 +1,17 @@
-<!-- Begin comment for older browsers//
-        var imgArray = new Array(
+var imgArray = new Array(
         'Image1Lg.jpg',
         'Image2Lg.jpg',
         'Image3Lg.jpg',
         'Image4Lg.jpg'
-        );
-        var titleArray = new Array(
+);
+var titleArray = new Array(
         'Angry Cat',
         'Cat and Dog',
         'Dog and Dog',
         'Dog'
-        );
-        var imgPath = "Images/Fullsize/";
-        function swapImage(imgID) {
+);
+var imgPath = "Images/Fullsize/";
+function swapImage(imgID) {
         var theImage = document.getElementById('theImage');
         var textDiv = document.getElementById('bottomText');
         var newImg;
@@ -21,11 +20,10 @@
         theImage.src = imgPath + newImg;
         textTitle=titleArray[imgID];
         textDiv.innerHTML = textTitle;
-        }
-        function preloadImages() {
+}
+function preloadImages() {
         for(var i = 0; i < imgArray.length; i++) {
-        var tmpImg = new Image;
-        tmpImg.src = imgPath + imgArray[i];
+                var tmpImg = new Image;
+                tmpImg.src = imgPath + imgArray[i];
         }
-        }
-        // End comment for older browsers -->
+}

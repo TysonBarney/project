@@ -4,6 +4,7 @@
     margin-right: auto;
     width: 900px;
     border: 1px solid black;
+    margin-top: -25px;
 }
 header{
     background-color: #FFF654;
@@ -38,6 +39,9 @@ section{
     width: 900px;
     background-color: #FFFBAA;
 }
+article{
+    width: 800px;
+}
 article p{
     text-align: left;
 }
@@ -47,8 +51,27 @@ footer{
     height: 100px;
     color: black;
 }
-img{
+header img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+#thumbs, #image {
+    width: 700px;
+    border: solid 1px 000;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    color: #000;
+    background: #eee;
+    padding: 5px;
+    }
+#thumbs {
+    margin-top: 10px;
+}
+#thumbs img {
+    border: solid 1px #000;
+    margin: 5px;
+}
+#image{
+    height:400px;
 }
