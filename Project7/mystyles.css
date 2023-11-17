@@ -1,35 +1,42 @@
+body{
+    background-color: #353200;
+}
 #container{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 900px;
+    height: 166px;
     border: 1px solid black;
-    margin-top: -25px;
+    margin-top: -26px;
+
 }
 header{
     background-color: #FFF654;
     width: 900px;
-    padding: 0px;
-    padding-top: 0;
-    margin: 0px;
-    margin-top: -16px;
+    height: 166px;
+    display: flex;
 }
 nav{
-    margin-top: 0;
-    margin-left: 25px;
     width: 30%;
 }
 nav ul{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: -40px;
+    margin-right: auto;
 }
 nav ul li{
     list-style-type: none;
-    margin: 2px;
-    padding: 4px;
+    margin: 0px;
+    padding: 6.6px;
     background-color: white;
     color: black;
     border-radius: 2px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid black;
 }
 nav ul li:hover{
     background-color: lightgray;
@@ -37,10 +44,17 @@ nav ul li:hover{
 }
 section{
     width: 900px;
-    background-color: #FFFBAA;
+    background-image: url('Images/backimage.jpg');
+    background-repeat: repeat-y;
+    margin-left: -1px;
+    border: 1px solid black;
 }
 article{
     width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFBAA;
+    text-align: left;
 }
 article p{
     text-align: left;
@@ -51,11 +65,7 @@ footer{
     height: 100px;
     color: black;
 }
-header img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 #thumbs, #image {
     width: 700px;
     border: solid 1px 000;
@@ -74,4 +84,7 @@ header img{
 }
 #image{
     height:400px;
+}
+.centered{
+    text-align: center;
 }
