@@ -1,0 +1,139 @@
+#container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    border: 1px solid black;
+    margin-top: -25px;
+}
+header{
+    background-color: #FFF654;
+    width: 900px;
+    padding: 0px;
+    padding-top: 0;
+    margin: 0px;
+    margin-top: -16px;
+}
+nav{
+    margin-top: 0;
+    margin-left: 25px;
+    width: 30%;
+}
+nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 2px;
+    padding: 4px;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+}
+nav ul li:hover{
+    background-color: lightgray;
+    color: black;
+}
+section{
+    width: 900px;
+    background-color: #FFFBAA;
+}
+article{
+    width: 800px;
+}
+article p{
+    text-align: left;
+}
+footer{
+    width: 900px;
+    background-color: #D4CF6A;
+    height: 100px;
+    color: black;
+}
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#thumbs, #image {
+    width: 700px;
+    border: solid 1px 000;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    color: #000;
+    background: #eee;
+    padding: 5px;
+    }
+#thumbs {
+    margin-top: 10px;
+}
+#thumbs img {
+    border: solid 1px #000;
+    margin: 5px;
+}
+#image{
+    height:400px;
+}
+body{
+    background-color: #FFF654;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: black;
+    font-size: 14px;
+    text-align: left;
+}
+h1, h2, h3{ 
+    text-align: center;
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+}
+ul{
+    color: black;
+    font-size: 14px;
+}
+blockquote{
+    font-size: 14px;
+}
+a:link{
+    color: blue;
+    font-size: 14px;
+}
+a:visited{
+    color: purple;
+    font-size: 14px;
+}
+a:hover{
+    color: red;
+    font-size: 14px;
+}
+table{
+    background-color: #FFFBAA;
+    width: 100%;
+    color: #000000;
+}
+td{
+    background-color: #FFFBAA;
+    text-align: center;
+    font-size: 12px;
+}
+th{
+    background-color: #D4CF6A;
+    font-size: 16px;
+}
+caption{
+    background-color: #FFFBAA;
+    font-size: 18px;
+}
+.imgmap{
+    display: flex;
+    justify-content: center;
+}

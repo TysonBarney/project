@@ -1,0 +1,210 @@
+﻿﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rent A Pet: Favorite Links</title>
+
+<script type="text/javascript" src="myscripts.js"></script>
+<link rel="stylesheet" href="mystyles.css" media="screen">
+<link rel="stylesheet" href="print.css" media="print">
+<link rel="preprocessor" href="FormToEmail.php">
+</head>
+
+<body onload="preloadImages()">
+<div id="container">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Tributes.html">Tributes</a></li>
+                <li><a href="Survey.html">Survey</a></li>
+                <li><a href="Links.html">Favorites</a></li>
+            </ul>
+        </nav>
+        <div>
+        <a href=""
+                onmouseover="document.getElementById('logo').src='Images/Logo2.jpg';"
+                onmouseout="document.getElementById('logo').src='Images/Logo1.jpg';
+                "> <img src="Images/Logo1.jpg" alt="Logo" id="logo"></a> </div>
+        <img src="Images/Banner.png" alt="dog hanging on fence">
+    </header>
+
+    <section>
+        <article>
+            <h1>Pet Order Form</h1>
+        <form action="pizza.php" method="post" name="OrderPizza" target="_blank">
+            <fieldset>
+            <legend>Your Information</legend>
+            <ul>
+              <li>
+                <label for="fname">First name:</label>
+                <input id="fname" name="fname" class="text" type="text">
+              </li>
+              <li>
+                <label for="lname">Last name:</label>
+                <input id="lname" name="lname" class="text" type="text">
+                </li>
+              <li>
+                <label for="pnumber">Phone Number:</label>
+                <input id="pnumber" name="pnumber" class="text" type="text">
+              </li>
+              <li>
+                <label for="email">Email:</label>
+                <input id="email" name="email" class="text" type="text">
+              </li>
+            </ul>
+            </fieldset>
+            
+            <h2>Renting Pets:</h2>
+            
+            <fieldset>
+            <legend>Pet options (chooose how many of each animal you would like to rent)</legend>
+            <ul>
+              <li>
+                <select name="dogs" id="dogs">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <label for="dogs">Dogs</label>
+                
+              </li>
+              <li>
+                <select name="cats" id="cats">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <label for="cats">Cats</label>
+                
+              </li>
+              <li>
+                <select name="horses" id="horses">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <label for="horses">Horses</label>
+                
+              </li>
+              <li>
+                <select name="pigs" id="pigs">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <label for="pigs">Pigs</label>
+                
+              </li>
+              <li>
+                <select name="snakes" id="snakes">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <label for="snakes">Snakes</label>
+                
+              </li>
+            </ul>
+            </fieldset>
+            <h2>Payment Options</h2>
+            <fieldset>
+                <legend>Please answer the following questions on how you will file your payment.</legend>
+                <ul>
+                  <li>
+                    <label for="fname"></label>
+                    <input id="fname" name="fname" class="text" type="text">
+                  </li>
+                </ul>
+            </fieldset>
+            <h2>Customer Survey</h2>
+            <fieldset>
+            <legend>Answer this portion only if you have rented or purchased products from Rent A Pet before.</legend>
+            <ul>
+                <li>
+                    <label for="question1">On a scale from 1 to 10, how would you rate your experience using Rent A Pet?</label>
+                    <br>
+                    <select name="dogs" id="dogs">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select> 
+                </li>
+                <li>
+                    <label for="question2">Why did you rate it that way?</label>
+                    <br>
+                    <textarea rows="5" cols="50" id="question2" name="question2" class="text" type="text" placeholder="Explain here..."></textarea>
+                </li>
+                <li>
+                    <label for="question3">What additional feedback, if any, do you have for our business?</label>
+                    <br>
+                    <textarea rows="5" cols="50" id="question3" name="question3" class="text" type="text" placeholder="Give any additional feedback here..."></textarea>
+                </li>
+            </ul>  
+            </fieldset>
+            </fieldset>
+            <input name="subButton" type="submit" value="Submit Form">
+            <input name="resetButton" type="reset" value="Reset Form">
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p><a href="#">Mygmail@gmail.complete</a></p>
+            <p>This website has been created for educational purposes.</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
+</body>
+</html>
