@@ -1,4 +1,4 @@
-﻿﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -148,13 +148,42 @@
               </li>
             </ul>
             </fieldset>
+            <fieldset>
+              <legend>How long would you like to rent these pets for?</legend>
+              <ul>
+                <li>
+                  <select name="duration" id="duration">
+                      <option value="0">1 day ($5/pet)</option>
+                      <option value="1">2 days ($9/pet)</option>
+                      <option value="2">3 days ($13/pet)</option>
+                      <option value="3">4 days ($17/pet)</option>
+                      <option value="4">5 days ($21/pet)</option>
+                      <option value="5">6 days ($24/pet)</option>
+                      <option value="6">1 week ($25/pet)</option>
+                      <option value="7">2 weeks ($45/pet)</option>
+                      <option value="8">3 weeks ($65/pet)</option>
+                      <option value="9">1 month ($80/pet)</option>
+                  </select>
+                  <label for="duration">Duration</label>
+                  
+                </li>
+              </ul>
+              </fieldset>
             <h2>Payment Options</h2>
             <fieldset>
                 <legend>Please answer the following questions on how you will file your payment.</legend>
                 <ul>
                   <li>
-                    <label for="fname"></label>
-                    <input id="fname" name="fname" class="text" type="text">
+                    <label for="creditcard">Credit Card:</label>
+                    <input id="creditcard" name="creditcard" class="text" type="radio">
+                  </li>
+                  <li>
+                    <label for="cash">Cash:</label>
+                    <input id="cash" name="cash" class="text" type="radio">
+                  </li>
+                  <li>
+                    <label for="both">Both:</label>
+                    <input id="both" name="both" class="text" type="radio">
                   </li>
                 </ul>
             </fieldset>
@@ -163,9 +192,9 @@
             <legend>Answer this portion only if you have rented or purchased products from Rent A Pet before.</legend>
             <ul>
                 <li>
-                    <label for="question1">On a scale from 1 to 10, how would you rate your experience using Rent A Pet?</label>
+                    <label for="rating">On a scale from 1 to 10, how would you rate your experience using Rent A Pet?</label>
                     <br>
-                    <select name="dogs" id="dogs">
+                    <select name="rating" id="rating">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -179,14 +208,14 @@
                     </select> 
                 </li>
                 <li>
-                    <label for="question2">Why did you rate it that way?</label>
+                    <label for="ratingexplanation">Why did you rate it that way?</label>
                     <br>
-                    <textarea rows="5" cols="50" id="question2" name="question2" class="text" type="text" placeholder="Explain here..."></textarea>
+                    <textarea rows="5" cols="50" id="ratingexplanation" name="ratingexplanation" class="text" type="text" placeholder="Explain here..."></textarea>
                 </li>
                 <li>
-                    <label for="question3">What additional feedback, if any, do you have for our business?</label>
+                    <label for="feedback">What additional feedback, if any, do you have for our business?</label>
                     <br>
-                    <textarea rows="5" cols="50" id="question3" name="question3" class="text" type="text" placeholder="Give any additional feedback here..."></textarea>
+                    <textarea rows="5" cols="50" id="feedback" name="feedback" class="text" type="text" placeholder="Give any additional feedback here..."></textarea>
                 </li>
             </ul>  
             </fieldset>
