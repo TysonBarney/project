@@ -1,5 +1,6 @@
 #container{
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     width: 900px;
@@ -12,24 +13,32 @@ header{
     padding: 0px;
     padding-top: 0;
     margin: 0px;
-    margin-top: -16px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 166px;
 }
 nav{
-    margin-top: 0;
-    margin-left: 25px;
-    width: 30%;
+    margin-top: -15px;
+    margin-left: -4.5%;
+    width: 30%
 }
 nav ul{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
 }
 nav ul li{
     list-style-type: none;
-    margin: 2px;
-    padding: 4px;
+    margin: 0px;
+    padding: 7.7px;
     background-color: white;
     color: black;
-    border-radius: 2px;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 12px;
 }
 nav ul li:hover{
     background-color: lightgray;
@@ -136,4 +145,22 @@ caption{
 .imgmap{
     display: flex;
     justify-content: center;
+}
+form label{
+    font-size: 16px;
+}
+legend{
+    text-align: center;
+}
+.animals ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.animals ul li{
+    width: 120px;
+}
+.petsites a{
+    font-size: 18px;
 }
