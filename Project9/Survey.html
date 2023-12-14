@@ -33,29 +33,29 @@
     <section>
         <article>
             <h1>Pet Order Form</h1>
-        <form action="pizza.php" method="post" name="OrderPizza" target="_blank">
+        <form action="FormToEmail.php" method="post" name="CustomerSurvey" target="_blank">
             <fieldset>
             <legend>Your Information</legend>
             <ul>
               <li>
                 <label for="fname">First name:</label>
                 <br>
-                <input id="fname" name="fname" class="text" type="text">
+                <input id="fname" name="fname" class="text" type="text" tabindex="1">
               </li>
               <li>
                 <label for="lname">Last name:</label>
                 <br>
-                <input id="lname" name="lname" class="text" type="text">
+                <input id="lname" name="lname" class="text" type="text" tabindex="2">
                 </li>
               <li>
                 <label for="pnumber">Phone Number:</label>
                 <br>
-                <input id="pnumber" name="pnumber" class="text" type="text">
+                <input id="pnumber" name="pnumber" class="text" type="text" tabindex="3">
               </li>
               <li>
                 <label for="email">Email:</label>
                 <br>
-                <input id="email" name="email" class="text" type="text">
+                <input id="email" name="email" class="text" type="text" tabindex="4">
               </li>
             </ul>
             </fieldset>
@@ -66,8 +66,8 @@
             <legend>Pet options (chooose how many of each animal you would like to rent)</legend>
             <ul>
               <li>
-                <select name="dogs" id="dogs">
-                    <option value="0">0</option>
+                <select name="dogs" id="dogs" tabindex="5">
+                    <option value="0" selected>0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -83,8 +83,8 @@
                 
               </li>
               <li>
-                <select name="cats" id="cats">
-                    <option value="0">0</option>
+                <select name="cats" id="cats" tabindex="6">
+                    <option value="0" selected>0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -100,8 +100,8 @@
                 
               </li>
               <li>
-                <select name="horses" id="horses">
-                    <option value="0">0</option>
+                <select name="horses" id="horses" tabindex="7">
+                    <option value="0" selected>0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -117,8 +117,8 @@
                 
               </li>
               <li>
-                <select name="pigs" id="pigs">
-                    <option value="0">0</option>
+                <select name="pigs" id="pigs" tabindex="8">
+                    <option value="0" selected>0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -134,8 +134,8 @@
                 
               </li>
               <li>
-                <select name="snakes" id="snakes">
-                    <option value="0">0</option>
+                <select name="snakes" id="snakes" tabindex="9">
+                    <option value="0" selected>0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -156,8 +156,8 @@
               <legend>How long would you like to rent these pets for?</legend>
               <ul>
                 <li>
-                  <select name="duration" id="duration">
-                      <option value="0">1 day ($25/pet)</option>
+                  <select name="duration" id="duration" tabindex="10">
+                      <option value="0" selected>1 day ($25/pet)</option>
                       <option value="1">2 days ($45/pet)</option>
                       <option value="2">3 days ($65/pet)</option>
                       <option value="3">4 days ($85/pet)</option>
@@ -178,14 +178,15 @@
                 <legend>How would you like to file your payment?</legend>
                 <ul>
                   <li>
-                    <input id="payment" name="payment" class="text" type="radio">
-                    <label for="payment">Credit Card:</label>                  </li>
+                    <input id="payment" name="payment" class="text" type="radio" tabindex="11">
+                    <label for="payment">Credit Card:</label>
+                  </li>
                   <li>
-                    <input id="payment" name="payment" class="text" type="radio">
+                    <input id="payment" name="payment" class="text" type="radio" tabindex="12">
                     <label for="payment">Cash:</label>
                   </li>
                   <li>
-                    <input id="payment" name="payment" class="text" type="radio">
+                    <input id="payment" name="payment" class="text" type="radio" tabindex="13">
                     <label for="payment">Both:</label>
                   </li>
                 </ul>
@@ -353,8 +354,8 @@
                 <li>
                     <label for="rating">On a scale from 1 to 10, how would you rate your experience using Rent A Pet?</label>
                     <br>
-                    <select name="rating" id="rating">
-                        <option value="1">1</option>
+                    <select name="rating" id="rating" tabindex="14">
+                        <option value="1" selected>1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
@@ -369,25 +370,25 @@
                 <li>
                     <label for="ratingexplanation">Why did you rate it that way?</label>
                     <br>
-                    <textarea rows="5" cols="50" id="ratingexplanation" name="ratingexplanation" class="text" type="text" placeholder="Explain here..."></textarea>
+                    <textarea rows="5" cols="50" id="ratingexplanation" name="ratingexplanation" class="text" type="text" placeholder="Explain here..." tabindex="15"></textarea>
                 </li>
                 <li>
                     <label for="feedback">What additional feedback, if any, do you have for our business?</label>
                     <br>
-                    <textarea rows="5" cols="50" id="feedback" name="feedback" class="text" type="text" placeholder="Give any additional feedback here..."></textarea>
+                    <textarea rows="5" cols="50" id="feedback" name="feedback" class="text" type="text" placeholder="Give any additional feedback here..." tabindex="16"></textarea>
                 </li>
             </ul>  
             </fieldset>
             </fieldset>
-            <input name="subButton" type="submit" value="Submit Form">
-            <input name="resetButton" type="reset" value="Reset Form">
+            <input name="subButton" type="submit" value="Submit Form" tabindex="17">
+            <input name="resetButton" type="reset" value="Reset Form" tabindex="18">
             </form>
         </article>
     </section>
 
     <footer>
         <div class="footer">
-            <p><a href="#">Mygmail@gmail.complete</a></p>
+            <p><a href="#">11026393@my.uvu.edu</a></p>
             <p>This website has been created for educational purposes.</p>
         </div>
     </footer>
